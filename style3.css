@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dela Gothic One', cursive;
+font-family: 'Poppins', sans-serif;
+}
+                         /* HEADER */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 60px;
+  height: 61.5px;
+  background-color: black;
+}
+
+.ul-list {
+  flex-grow: 1;
+}
+img {
+  width: 90px;
+  height: 30px;
+}
+
+.line {
+  width: 1px;
+  height: 50px;
+  background-color: white;
+  margin-left: 60px;
+}
+.list{
+  display: flex;
+  color: white;
+  align-items: center;
+ gap: 50px;
+ list-style: none;
+ margin-left: 60px;
+ line-height: 20px;
+ font-size: medium;
+ font-weight: 600;
+}
+.list li:hover{
+  color: hsl(296, 89%, 41%);
+  cursor: pointer;
+}
+.top-button{
+  padding: 9px 23px;
+  border-radius: 8px;
+  background-color: hsl(296, 89%, 41%);
+  color: white; 
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+
+}   
+
+.top-button:hover{
+  color:hsl(296, 89%, 41%);
+  background-color: #fff;
+}
+
+                    /* HERO SECTION */
+
+section{
+/* background-image: url(/assets/bg.png); */
+background-size: 100%;
+background-attachment: fixed;
+height: 93vh;
+text-align: center;
+background-repeat: no-repeat;
+}
+
+.heading{
+ text-align: center;
+ color: white;
+ margin: 0 auto;
+ font-weight: 800;
+ font-style:normal;
+ font-size: 65px;
+ max-width: 800;
+ padding-top: 160px;
+ line-height: 80px;
+}
+.discription{
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+.down-button{
+  margin-top: 52px;
+  padding: 11px 16px;
+  background-color:hsl(296, 89%, 41%);
+  color: white;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.down-button:hover{
+  color:hsl(296, 89%, 41%);
+  background-color: #fff;
+}
+
